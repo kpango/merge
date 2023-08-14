@@ -1,0 +1,2 @@
+# merge
+Merge Go structs
