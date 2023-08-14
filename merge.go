@@ -1,4 +1,9 @@
-package merge 
+package merge
+
+import (
+	"fmt"
+	"reflect"
+)
 
 type Merger[T any] interface {
 	Merge(objs ...T) (dst T, err error)
